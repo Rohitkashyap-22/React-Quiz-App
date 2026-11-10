@@ -1,0 +1,87 @@
+body {
+     background-color: rgb(63, 102, 137);
+     color: black;
+     display: flex;
+     justify-content: center;
+}
+
+.container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.qsnbox {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     width: 100vh;
+}
+.result{
+     font-size: 20px;
+     background-color: rgb(156, 195, 198);
+     padding: 20px;
+     border: none;
+     border-radius: 10px;
+     margin: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.inactive {
+     background-color: rgb(128, 135, 137);
+     color: rgb(14, 14, 14);
+     border: none;
+     border-radius: 10px;
+     width: 150px;
+     height: 40px;
+     cursor: not-allowed;
+     margin: 5px;
+
+}
+
+.active {
+     background-color: rgb(6, 61, 61);
+     color: white;
+     border: none;
+     border-radius: 10px;
+     width: 155px;
+     height: 40px;
+     cursor: pointer;
+     margin: 5px;
+}
+
+
+
+h2 {
+     font-size: 23px;
+     width: 100vh;
+     margin: 5px;
+     padding: 5px;
+}
+
+li {
+     list-style: decimal;
+     background-color: rgb(160, 213, 225);
+     width: 100vh;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 4px;
+     cursor: pointer;
+}
+
+.selected {
+     list-style: decimal;
+     background-color: rgb(29, 165, 110);
+     width: 100vh;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 4px;
+}
